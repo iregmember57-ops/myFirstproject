@@ -1,0 +1,41 @@
+
+/* Main container */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #dbeafe, #ede9fe);
+  font-family: Arial, sans-serif;
+}
+
+/* Card design */
+.profile-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  width: 300px;
+}
+
+/* Heading */
+.profile-card h1 {
+  color: #4f46e5;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+.profile-card p {
+  color: #374151;
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+/* Highlight name and age */
+.profile-card span {
+  color: #4f46e5;
+  font-weight: bold;
+}
